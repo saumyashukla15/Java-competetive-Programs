@@ -1,3 +1,4 @@
+import java.util.*;
 class GFG { 
   
     // Function to check if a string 
@@ -35,7 +36,8 @@ class GFG {
     public static void main(String args[]) 
     { 
         // Given string str 
-        String str = "Abcdefghijklmnopqrstuvwxyz12"; 
+        Scanner sc=new Scanner(System.in);
+        String str =sc.next(); 
   
         // Function call 
         allLetter(str); 
